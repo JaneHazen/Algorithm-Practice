@@ -14,7 +14,6 @@ def pig_latin_sentence(sentence)
   new_sentence = []
   p words
   words.each do |lol|
-
     new_sentence << pig_latin(lol)
   end
   new_sentence.join(" ")
