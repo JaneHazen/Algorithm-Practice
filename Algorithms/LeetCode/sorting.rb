@@ -1,7 +1,6 @@
 # Sample implementation of quicksort and mergesort in ruby
 # Both algorithm sort in O(n * lg(n)) time
 # Quicksort works inplace, where mergesort works in a new array
-
 def quicksort(array, from=0, to=nil)
     if to == nil
         # Sort the whole array, by default
